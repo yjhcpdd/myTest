@@ -9,11 +9,20 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- 布隆过滤器依赖 -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>19.0</version>
         </dependency>
+        
+        <!-- easyExcel依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>2.1.6</version>
+        </dependency>
+        
     </dependencies>
-
+    
 </project>
